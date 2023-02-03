@@ -1,7 +1,7 @@
 # Jake Harrington 
 An introduction of myself and my interests. 
 ## Who Am I 
-Hello everyone! My name is Jake Harrington. I am an M.S. student studying geological oceanpgraphy at the University of Rhode Island Graduate School of Oceanography. My primary research interests include shoreline dynamics, wetland resilience, and coastal processes in general.  
+Hello everyone! My name is Jake Harrington. I am an M.S. student studying geological oceanography at the University of Rhode Island Graduate School of Oceanography. My primary research interests include shoreline dynamics, wetland resilience, and coastal processes in general.  
 
 *A photo of me* 
 
