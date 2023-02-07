@@ -22,7 +22,7 @@ print(overlap)
 # Finding items that don't overlap stumped me, so I found help at https://stackoverflow.com/questions/40185258/find-elements-not-in-the-intersection-of-two-lists
 
 # My idea was to create a list containing all items, then remove the items present in the overlap list.
-#It turns out I needed to convert my lists to using the set function to do this.
+#It turns out I needed to convert my lists using the set function to do this.
 #The capital S in the variable names indicates that they have been converted to sets.
 
 #This line combines the 2 lists.
