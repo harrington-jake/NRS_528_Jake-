@@ -14,7 +14,7 @@ age=int(input('How old are you? (enter number): '))
 toret=65-age
 
 #I decided to get a little fancy and create an if statement where if the input age is less than 65, it prints the number
-#of years until they reach 65. But if the input number is 65 or greater, the output says the user is has already
+#of years until they reach 65. But if the input number is 65 or greater, the output says the user has already
 # reached retirement age
 if age < 65:
     print('You have ' + str(toret) + ' years until retirement.')
