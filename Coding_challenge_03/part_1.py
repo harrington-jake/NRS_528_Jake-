@@ -27,13 +27,11 @@ os.mkdir('draft_code/complete')
 os.mkdir('layouts/default')
 os.mkdir('layouts/post')
 
-#Last I add the sub-subfolder to the post subfoolder:
+#Last I add the sub-subfolder to the post subfolder:
 os.mkdir('layouts/post/posted')
 
 #I include the 2 lines below just to check that the directories actually get made.
-#The path specified is unique to my laptop, so someone running this code on a diffrent machine should either
-#remove these two lines, or change the path name to whatever directory the are working in.
-list = os.listdir(r'C:\NRS\Coding_challanges\Coding_challange_03')
+list = os.listdir()
 print(list)
 
 #Now I remove them in the opposite order, from the inside out:

@@ -48,8 +48,8 @@ with open("co2__ppm_daily.csv") as co2_csv:
     for row in csv.reader(co2_csv):
         all_values.append(float(row[1]))
 
-print('Minimmum value: ' + str(min(all_values)))
-print('Minimmum value: ' + str(max(all_values)))
+print('Min value: ' + str(min(all_values)))
+print('Max value: ' + str(max(all_values)))
 avg_all_ppm = sum(all_values)/len(all_values)
 print('Total mean: ' + str(avg_all_ppm))
 
