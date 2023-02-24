@@ -21,14 +21,15 @@
 import arcpy
 from arcpy.sa import *
 
-#Here I designate my workspace. You will need to change this to whichever location you extracted the .tif files to.
+#Here I designate my workspace. This is unique to my machine. You will need to change this to whichever location you extracted the .tif files to.
 arcpy.env.workspace = r"C:\NRS\Coding_challanges\Coding_challange_04"
+#If you prefer, you can delete line 26, and simply make sure to include the full path to each of the raster datasets in lines 35 and 36. 
+#For example: r"C:\NRS\Coding_challanges\Coding_challange_04\usace2018_east_cst_Job831130.tif" would work just the same in my case. for line 35. 
 
 #I'm going to allow overwriting the output file so I can test this multiple times without having to keep deleting the output file.
 arcpy.env.overwriteOutput = True
 
-# Simply input the path to the two raster datasets you want to use. Note that the paths I used are unique to my computer.
-
+# Simply input the two raster datasets you want to use. 
 #If you are using the example data i proivded in GitHub, or are doing a similar elevation change analysis, make sure the most
 # recent dataset is the 1st input raster, and the older dataset is the 2nd. This way positive values will indicate elevation gain.
 inRaster1 = r"usace2018_east_cst_Job831130.tif"
