@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
+# TITLE
 
-"""
-#This script is designed to use NOAA Coastal Change Analysis Program (C-CAP) landcover datasets to visualize wetland
+# This script is designed to use NOAA Coastal Change Analysis Program (C-CAP) landcover datasets to visualize wetland
 # landcover change over a range of timesteps. The code automates this process for as many datasets as the user inputs.
 # Note that the example datasets are for Nauset Bay, Cape Cod, and use the UTM 19N projected coordinate system.
 # When visualizing this example data in ARCGIS I recommend setting the basemap to UTM 19N.
@@ -15,7 +13,7 @@ import os
 
 #Define your workspace. (line 18) This path MUST be changed to the location of the data on your machine.
 #Be careful here, make sure the workspace path you designate is the directory containing the "Land_cover_rasters" directory.
-workspace = r'C:\NRS\Midterm_challenge' #CHANGE THIS!
+workspace = r'C:\Data\Students_2023\Harrington\Midterm_coding_challenge' #CHANGE THIS!
 arcpy.env.workspace = os.path.join(workspace, "Land_Cover_rasters") #"Land_cover_rasters" must contain all the rasters you want to compare.
 
 # Below we automatically select all the rasters in our directory for the analysis.
@@ -27,7 +25,7 @@ end_timesteps = arcpy.ListRasters("*", "IMG")
 arcpy.env.overwriteOutput = True
 
 
-#Before we apply any GIS tools, we need to set up couple loops using 2 lists. The first list (end_timesteps) Is all the
+# Before we apply any GIS tools, we need to set up couple loops using 2 lists. The first list (end_timesteps) Is all the
 # datasets you want to serve as the end timestep for each marsh area change analysis. The second list, (initial_timesteps)
 # is all the datasets you want to serve as the starting timestep for each change analysis.
 
