@@ -217,7 +217,7 @@ class CCAP_to_wetland_change(object):
         params = []
 
         workspace = arcpy.Parameter(name="workspace",
-                                           displayName="File location of for Outputs",
+                                           displayName="File location of Outputs",
                                            datatype="DERasterDataset",
                                            parameterType="Required",  # Required|Optional|Derived
                                            direction="Input",  # Input|Output
