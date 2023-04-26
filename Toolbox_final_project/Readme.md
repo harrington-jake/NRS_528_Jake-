@@ -4,7 +4,7 @@ This toolbox has a similar function to the Midterm Challenge python script uploa
 
 Note that all parameters in this toolbox are required. 
 
-For all user-defined output parameters I recommend including a .tif extension at the end. Failing to define the extension may cause errors as you move through the steps of the workflow. 
+**For all user-defined output parameters I recommend including a .tif extension at the end. Failing to define the extension may cause errors as you move through the steps of the workflow.** 
 
 Each tool and its parameters are described below: 
 
