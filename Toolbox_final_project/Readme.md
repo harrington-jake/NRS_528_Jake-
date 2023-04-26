@@ -38,7 +38,7 @@ In this step we add the raster pixel values. As said above, after this is comple
 
 ## **Tool 3** - Step 3: Keep only Wetland Data: 
 
-In this step, we set any pixel value less than 100 to NULL. remember, any pixel value less than 100 at this point was never a wetland land type, so to make things easier to see in ARCGIS, we set all these pixel values to NULL since we're not interested in them. We then save these final datasets to the new ‘outputs’ directory.
+In this step, we set any pixel value less than 100 to NULL. remember, any pixel value less than 100 at this point was never a wetland land type, so to make things easier to see in ARCGIS, we set all these pixel values to NULL since we're not interested in them. 
 
 **Parameters:**
 
