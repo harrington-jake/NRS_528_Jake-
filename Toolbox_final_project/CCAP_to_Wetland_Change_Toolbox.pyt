@@ -1,6 +1,5 @@
 
 import arcpy
-#arcpy.env.workspace = r"C:\NRS\Coding_challenges\final_project"
 arcpy.env.overwriteOutput = True
 
 class Toolbox(object):
