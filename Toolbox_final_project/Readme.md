@@ -59,3 +59,14 @@ Does the three previous steps in succession and deletes intermediate outputs at 
   end_timestep - Path to the CCAP raster dataset for the later of the two timesteps.
   
   final_output - Path you want to assign to the final raster displaying wetland change. Make sure to define the extension (.tif) at the end of this parameter. 
+
+
+## Interpreting final the output: 
+
+When visualizing the output in GIS, the final raster will contain pixel values between 100 and 300. Pixel values 100 – 199 indicate marsh loss, 200 – 299 indicate marsh gain/formation, and 300 indicates marshland present at both timesteps. I recommend adjusting the symbology in ARCGIS to 3 categories to easily visualize where marsh was lost, gained, or remained the same (see image below).  
+
+
+![marsh_chg_96_16](https://user-images.githubusercontent.com/123588116/224758263-de389c3d-049b-47c0-bef2-ca6a6739ec5b.PNG)
+
+*Example output dataset*
+
